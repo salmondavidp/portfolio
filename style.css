@@ -173,6 +173,9 @@ img{
     cursor: pointer;
     padding: 1rem;
     margin-right: -6rem;
+    font-family: roboto,sans-serif;
+    font-weight: var(--font-medium)
+    ;
     
 }
 
