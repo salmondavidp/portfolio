@@ -129,7 +129,7 @@ img{
 }
 
 .main{
-    overflow: hidden;
+    overflow:hidden ;
 }
 
 /*header nav*/
@@ -275,7 +275,6 @@ img{
 .hbanner{
     height: 1080;
     width: 1920;
-    color: green;
     overflow: hidden;
 }
 
@@ -293,13 +292,14 @@ h1{
 
 }
 
-
 .circle {
+    top:50px;
     width: 70rem;
-    height:70rem;
+    height:50rem;
     background:#FF7800;
-    border-radius: 50%;
+    border-radius: 50% 50% 0 0;
     display: flex;
     margin-left: 10rem;
+    justify-content: center;
   }
-    
+  
