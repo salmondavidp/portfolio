@@ -275,7 +275,6 @@ img{
 .hbanner{
     height: 1080;
     width: 1920;
-    overflow: hidden;
 }
 
 .bannertitle,h1{
@@ -283,7 +282,7 @@ img{
     font-weight: var(--font-semi-bold);
     font-size: 4.25rem;
     padding: 0rem;
-    margin: 5.5rem 0 0 -2.5rem ; /*1) Top 2) right 3) bottom 4)left */
+    margin: 0 0 0 0 ; /*1) Top 2) right 3) bottom 4)left */
 }
 
 h1{
@@ -293,14 +292,12 @@ h1{
 }
 
 .circle {
-    top:50px;
-    
-    width: 70rem;
-    height:50rem;
-    background:#FF7800;
-    border-radius: 50% 50% 0 0;
     display: flex;
-    margin-left: 10rem;
-    justify-content: center;
-  }
+    position: relative;
+    top: -30rem;
+    margin-top: 0;
+    padding-top:0 ;
+    left: 10.5rem;
+    
+}
   
