@@ -189,7 +189,7 @@ img{
 
 .main{
     width: 100%;
-    height: 845px;
+    height: 760px;
     padding: 0rem 8rem 0rem 8rem; 
 }
 
@@ -301,3 +301,8 @@ h1{
     
 }
   
+.sec2{
+    width: 100%;
+    height: 760px;
+    background-color: #F94A29;
+}
