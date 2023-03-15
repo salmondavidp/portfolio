@@ -1,5 +1,7 @@
 const burger = document.querySelector('.burger');
 const navMenu = document.querySelector('#nav-menu');
+const scrollImage = document.querySelector('.nav_logo img');
+
 
 burger.addEventListener('click', () => {
   navMenu.classList.toggle('active');
@@ -17,3 +19,5 @@ burger.addEventListener('click', () => {
       header.style.backgroundColor = 'var(--body-color)';
     }
   });
+
+

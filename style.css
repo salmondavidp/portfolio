@@ -155,10 +155,14 @@ img{
 }
 
 .nav_logo{
-    color: var(--text-color);
-    font-weight: var(--font-medium);
-    font-size: 1.25rem;
-    margin-left: -8rem;
+  margin-left: -15rem ;
+  padding-top: 1rem; 
+  max-width: 30%;
+  height: auto;
+}
+
+.nav_logo img{
+    opacity: 0;
 }
 
 .nav_logo:hover{
@@ -294,14 +298,14 @@ h1{
 .circle {
     display: flex;
     position: relative;
-    top: -30rem;
+    top: 2.5rem;
     margin-top: 0;
     padding-top:0 ;
     left: 10.5rem;
     
 }
   
-.sec2{
+.skills{
     width: 100%;
     height: 760px;
     background-color: #F94A29;
