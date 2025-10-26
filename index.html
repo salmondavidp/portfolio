@@ -1,22 +1,419 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Under Construction</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>salmondavid - portfolio</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 </head>
-<body>
-    <div class="container">
-        <h1>My Portfolio</h1>
-        <h2>Website is Under Construction</h2>
-        <p>Stay tuned!</p>
-        <div class="loader"></div>
-        <div class="social-icons">
-            <a href="https://github.com/salmondavidp"><i class="fab fa-github"></i></a>
-        </div>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1 class="sitename">SALMONDAVID</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <!--<li><a href="#portfolio">Portfolio</a></li>-->
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list" id="mobileToggle"></i>
+      </nav>
+
     </div>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+      <img src="assets/img/hero-img.jpg" alt="" data-aos="fade-in" class="hero-img">
+
+      <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+        <h2 class="hero-title">I am SALMONDAVID</h2>
+        <p class="hero-sub"> <span class="typed" data-typed-items="AI Developer, Web Developer, Designer"></span></p>
+      </div>
+      
+  <span class="typed" data-typed-items="AI Developer, Web Developer, Designer"></span>
+
+
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section light-surface">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 align-items-center">
+          <div class="col-md-6">
+            <div class="card-profile">
+              <div class="row justify-content-between gy-4">
+                <div class="col-lg-5">
+                  <img src="assets/img/profile-img.jpg" class="img-fluid profile-img" alt="">
+                </div>
+                <div class="col-lg-7 about-info modern">
+                  <p><strong>Name: </strong> <span>SALMONDAVID POTAGOLI</span></p>
+                  <p><strong>Email: </strong> <span>davidfpotagoli17@gmail.com</span></p>
+                  <p><strong>Phone: </strong> <span>+91 63613 02718</span></p>
+                </div>
+              </div>
+              <div class="skills-content skills-animation mt-4">
+                <h5>Skills</h5>
+                <div class="progress modern">
+                  <span class="skill"><span>Python</span> <i class="val">95%</i></span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar" style="width:95%"></div>
+                  </div>
+                </div>
+                <div class="progress modern">
+                  <span class="skill"><span>R</span> <i class="val">85%</i></span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar" style="width:85%"></div>
+                  </div>
+                </div>
+                <div class="progress modern">
+                  <span class="skill"><span>Java</span> <i class="val">80%</i></span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar" style="width:80%"></div>
+                  </div>
+                </div>
+                <div class="progress modern">
+                  <span class="skill"><span>C/C++</span> <i class="val">75%</i></span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar" style="width:75%"></div>
+                  </div>
+                </div>
+                <div class="progress modern">
+                  <span class="skill"><span>Data Analysis & ML Tools</span> <i class="val">90%</i></span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar" style="width:90%"></div>
+                  </div>
+                </div>
+                <div class="progress modern">
+                  <span class="skill"><span>Web & Cloud Tools</span> <i class="val">80%</i></span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar" style="width:80%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="about-me modern-surface">
+              <h4>About Me</h4>
+              <p>
+                I am <strong>SALMONDAVID POTAGOLI</strong>, an innovative Data Scientist and AI Engineer with expertise in statistics, machine learning, and data visualization. I am proficient in Python, R, and advanced algorithms, and I have experience solving real-world problems with data-driven solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /About Section -->
+
+  <!-- Resume Section -->
+<section id="resume" class="resume section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Resume</h2>
+    <p>My academic background, skills, certificates, and projects</p>
+  </div>
+
+  <div class="container">
+    <div class="row">
+
+      <!-- Left Column: Education & Skills -->
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+        <!-- Education -->
+        <h3 class="resume-title">Education</h3>
+
+        <div class="resume-item">
+          <h4>B.Tech in Computer Science and Engineering (Data Science)</h4>
+          <h5>August 2022 – May 2025</h5>
+          <p><em>Presidency University, Bangalore</em></p>
+        </div>
+
+        <div class="resume-item">
+          <h4>Diploma in Computer Science and Engineering</h4>
+          <h5>April 2022</h5>
+          <p><em>Anjuman-E-Islam Polytechnic, Gadag</em></p>
+        </div>
+
+        <!-- Skills -->
+        <h3 class="resume-title">Skills</h3>
+
+        <div class="resume-item">
+          <h4>Languages</h4>
+          <p>Python, R, C, C++, Java, JavaScript, TypeScript, HTML, CSS</p>
+        </div>
+
+        <div class="resume-item">
+          <h4>AI/ML Tools</h4>
+          <p>TensorFlow, Keras, Scikit-learn, OpenCV, pandas, NumPy, Flask, FastAPI</p>
+        </div>
+
+        <div class="resume-item">
+          <h4>Data Analysis</h4>
+          <p>Statistics, Linear Algebra, Applied Mathematics, Data Visualisation, Business Rules</p>
+        </div>
+
+        <div class="resume-item">
+          <h4>Cloud & Tools</h4>
+          <p>Google Cloud Platform, Firebase, Git, VS Code, PyCharm, React</p>
+        </div>
+
+        <div class="resume-item">
+          <h4>Soft Skills</h4>
+          <p>Analytical Thinking, Problem-Solving, Communication, Creative Approach, Tech Savvy</p>
+        </div>
+
+      </div>
+
+      <!-- Right Column: Certificates & Projects -->
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+
+        <!-- Certificates -->
+        <h3 class="resume-title">Certificates</h3>
+        
+        <!-- NASSCOM AI in Data Science Certificate -->
+         <div class="resume-item">
+  <h4>NASSCOM AI in Data Science (Powered by Capgemini)</h4>
+  <h5>2025 - Present</h5>
+  <p><em>NASSCOM, India</em></p>
+  <ul>
+    <li>Completed Python programming fundamentals, including data structures, libraries (NumPy, pandas), and scripting for data processing.</li>
+    <li>Learned AI, Machine Learning, and Data Science concepts using Python.</li>
+    <li>Worked on hands-on projects involving predictive analytics, ML model building, and deployment with real-world datasets.</li>
+    <li>Received industry-focused training powered by Capgemini, emphasizing practical applications in AI and Data Science.</li>
+  </ul>
+</div>
+
+        <div class="resume-item">
+          <h4>Google Cloud Skill Boosts – Generative AI and Vertex AI Series</h4>
+          <h5>Aug 2024</h5>
+          <p><em>Google Cloud</em></p>
+          <ul>
+            <li>Develop GenAI Apps with Gemini and Streamlit – Built and deployed Generative AI applications.</li>
+            <li>Inspect Rich Documents with Gemini Multimodality and RAG – Integrated multimodal models for document analysis.</li>
+            <li>Prompt Design in Vertex AI – Learned prompt engineering and optimization techniques. <a href="https://www.credly.com/users/salmondavid-potagoli/badges" target="_blank">View Badges</a></li>
+          </ul>
+        </div>
+
+        <div class="resume-item">
+          <h4>Machine Learning and Data Science Real Life Projects</h4>
+          <h5>May 2023 – Oct 2025</h5>
+          <p><em>Python, scikit-learn, Matplotlib/Seaborn</em></p>
+          <ul>
+            <li>Implemented ML algorithms (Regression, Random Forest, K-Means, SVM), preprocessing, and data visualization.</li>
+            <li>Built predictive models with cross-validation and deployed solutions using Flask.</li>
+            <li>End-to-end data science lifecycle: data cleaning, EDA, feature engineering, model building, deployment. <a href="https://www.udemy.com/certificate/UC-ccddd1c4-5e71-484f-968b-5f9d385b1059/" target="_blank">View Certificate</a></li>
+          </ul>
+        </div>
+
+        <!-- Projects -->
+        <h3 class="resume-title">Projects</h3>
+
+        <div class="resume-item">
+          <h4>AI-Powered Legal Assistant</h4>
+          <h5>2025</h5>
+          <p><em>React.js, Python, GPT Models</em></p>
+          <ul>
+            <li>Built an AI assistant to analyze legal documents, provide summaries, and answer questions using GPT models.</li>
+            <li>Integrated file uploads with real-time insights for better accessibility.</li>
+          </ul>
+        </div>
+
+        <div class="resume-item">
+          <h4>Smart Hiring: AI-Driven Job Portal</h4>
+          <h5>2024</h5>
+          <p><em>MERN Stack, Generative AI, ATS Optimization</em></p>
+          <ul>
+            <li>Developed an ATS-optimized job portal with AI-driven resume recommendations.</li>
+            <li>Connected students and recruiters using automated resume improvement tools and analytics.</li>
+          </ul>
+        </div>
+
+        <div class="resume-item">
+          <h4>Doozy Hub</h4>
+          <h5>2022</h5>
+          <p><em>HTML, CSS, JS, WordPress</em></p>
+          <ul>
+            <li>Enhanced website UX with dark mode and optimized page speed.</li>
+            <li>Collaborated with designers and developers to meet client goals.</li>
+          </ul>
+        </div>
+
+        <div class="resume-item">
+          <h4>JEDA: AI Virtual Assistant</h4>
+          <h5>2020</h5>
+          <p><em>Python</em></p>
+          <ul>
+            <li>Developed a Python-based voice assistant with speech recognition and text-to-speech.</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+
+      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-5">
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+91 63613 02718</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>davidpotagoli@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="300">
+          <div class="row gy-4">
+            <div class="col-md-6">
+              <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+            </div>
+            <div class="col-md-6 ">
+              <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+            </div>
+            <div class="col-md-12">
+              <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+            </div>
+            <div class="col-md-12">
+              <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+            </div>
+            <div class="col-md-12 text-center">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+              <button type="submit" class="btn-primary">Send Message</button>
+            </div>
+          </div>
+        </form><!-- End Contact Form -->
+
+      </div>
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer accent-background">
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">salmondavid</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://github.com/salmondavidp" aria-label="Git"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/salmondavid/" aria-label="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script>
+    // Minimal JS to support mobile nav toggle, scroll-top visibility and typed.js initialization
+    (function(){
+      const mobileToggle = document.getElementById('mobileToggle');
+      const nav = document.getElementById('navmenu');
+      mobileToggle && mobileToggle.addEventListener('click', () => {
+        document.body.classList.toggle('mobile-nav-active');
+        nav.querySelector('ul').style.display = document.body.classList.contains('mobile-nav-active') ? 'block' : 'none';
+      });
+
+      // Scroll top button
+      const scrollTop = document.getElementById('scroll-top');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) scrollTop.classList.add('active');
+        else scrollTop.classList.remove('active');
+      });
+      scrollTop.addEventListener('click', (e) => { e.preventDefault(); window.scrollTo({top:0, behavior:'smooth'}); });
+
+      // Typed.js (if loaded)
+      if (window.Typed) {
+        const typedEl = document.querySelector('.typed');
+        if (typedEl) {
+          const items = typedEl.getAttribute('data-typed-items').split(',');
+          new Typed(typedEl, { strings: items.map(i => i.trim()), typeSpeed: 80, backSpeed: 40, backDelay: 1500, loop: true });
+        }
+      }
+
+      // AOS init if present
+      if (window.AOS) AOS.init({ duration: 800, once: true });
+
+      // Simple preloader hide
+      window.addEventListener('load', () => {
+        const pre = document.getElementById('preloader');
+        if (pre) pre.style.opacity = 0, setTimeout(()=>pre.remove(), 600);
+      });
+    })();
+  </script>
+
+  <!-- Main CSS link already included in head -->
 </body>
+
 </html>
